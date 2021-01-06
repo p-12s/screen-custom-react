@@ -1,0 +1,43 @@
+.app {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.clock {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.lot {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+p {
+    margin: 0;
+}
+.clock .icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    margin: 0 0 3px 5px;
+}
+.clock .icon.day {
+    background-color: #71f371;
+}
+.clock .icon.night {
+    background-color: palevioletred;
+}
+.loading {
+    background: #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
