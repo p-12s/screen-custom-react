@@ -1,0 +1,77 @@
+.app {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.clock {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.lot {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lot.favorite {
+    border-color: #ffd7cb;
+    background: #ffd7cb;
+}
+p {
+    margin: 0;
+}
+.clock .icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    margin: 0 0 3px 5px;
+}
+.clock .icon.day {
+    background-color: #71f371;
+}
+.clock .icon.night {
+    background-color: palevioletred;
+}
+.loading {
+    background: #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+h1 {
+    margin: 0;
+    padding: 0 10px;
+    width: 30%;
+}
+button {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 4px 6px;
+    font-size: 0.8rem;
+    outline: none;
+    min-width: 90px;
+}
+button.favorite {
+    background: #fff;
+    border: 1px solid #999;
+    color: #000;
+}
+button.unfavorite {
+    background: #fff;
+    border: 1px solid #ff8c68;
+    color: #dc0000;
+}
+ion-icon {
+    vertical-align: middle;
+    padding: 0 3px 2px 0;
+}
